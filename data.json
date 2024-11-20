@@ -1,0 +1,447 @@
+[
+    {
+        "name": "Авиация",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 45 },
+            { "ingredient": "Ликер мараскино", "volume": 15 },
+            { "ingredient": "Ликер фиалка", "volume": 5 },
+            { "ingredient": "Сок лимон", "volume": 15 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Мартинка"
+    },
+    {
+        "name": "Айриш Кофе",
+        "ingredients": [
+            { "ingredient": "Виски ирландский", "volume": 50 },
+            { "ingredient": "Американо", "volume": 120 },
+            { "ingredient": "Сливки взбитые", "volume": 50 },
+            { "ingredient": "Сахар тростник", "volume": 1}
+        ],
+        "method": "Билд",
+        "glass": "Айриш бокал"
+    },
+    {
+        "name": "Американо",
+        "ingredients": [
+            { "ingredient": "Кампари", "volume": 30 },
+            { "ingredient": "Вермут красный", "volume": 30 },
+            { "ingredient": "Содовая", "volume": "Топом" }
+        ],
+        "method": "Билд",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Апероль Спритц",
+        "ingredients": [
+            { "ingredient": "Апероль", "volume": 60 },
+            { "ingredient": "Игристое сухое", "volume": 90 },
+            { "ingredient": "Содовая", "volume": "Топом" }
+        ],
+        "method": "Билд",
+        "glass": "Винный бокал"
+    },
+    {
+        "name": "Б-52",
+        "ingredients": [
+            { "ingredient": "Ликер кофе", "volume": 15 },
+            { "ingredient": "Ликер сливочный", "volume": 15 },
+            { "ingredient": "Ликер апельсин", "volume": 15 }
+        ],
+        "method": "Лейринг",
+        "glass": "Шот"
+    },
+    {
+        "name": "Белая Леди",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 40 },
+            { "ingredient": "Ликер апельсин", "volume": 30 },
+            { "ingredient": "Сок лимон", "volume": 20 },
+            { "ingredient": "Яичный белок", "volume": 10 }
+        ],
+        "method": "Шейк драй шейк файн стрейн",
+        "glass": "Шале"
+    },
+    {
+        "name": "Беллини",
+        "ingredients": [
+            { "ingredient": "Игристое белое", "volume": 100 },
+            { "ingredient": "Пюре персик", "volume": 50 }
+        ],
+        "method": "Билд",
+        "glass": "Флюте"
+    },
+    {
+        "name": "Белый Русский",
+        "ingredients": [
+            { "ingredient": "Водка", "volume": 40 },
+            { "ingredient": "Ликер кофе", "volume": 30 },
+            { "ingredient": "Сливки", "volume": 30 }
+        ],
+        "method": "Билд",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Бэйзил Смэш",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 40 },
+            { "ingredient": "Сок лимон", "volume": 20 },
+            { "ingredient": "Сахарный сироп", "volume": 20 },
+            { "ingredient": "Лист базилика", "volume": 3 }
+        ],
+        "method": "Шейк мадл файн стрейн",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Виски Сауэр",
+        "ingredients": [
+            { "ingredient": "Бурбон", "volume": 45 },
+            { "ingredient": "Сок лимон", "volume": 25 },
+            { "ingredient": "Сахарный сироп", "volume": 20 },
+            { "ingredient": "Яичный белок", "volume": 20 },
+            { "ingredient": "Биттер ангостура", "volume": 2}
+        ],
+        "method": "Шейк драй шейк файн стрейн",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Гимлет",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 50 },
+            { "ingredient": "Кордиал лайм", "volume": 50 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Мартинка"
+    },
+    {
+        "name": "Голубая Лагуна",
+        "ingredients": [
+            { "ingredient": "Водка", "volume": 50 },
+            { "ingredient": "Ликер блю кюрасао", "volume": 20 },
+            { "ingredient": "Спрайт", "volume": 150 }
+        ],
+        "method": "Билд",
+        "glass": "Харрикейн"
+    },
+    {
+        "name": "Дайкири",
+        "ingredients": [
+            { "ingredient": "Ром светлый", "volume": 60 },
+            { "ingredient": "Сок лайм", "volume": 20 },
+            { "ingredient": "Сахар кусок", "volume": 2}
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Шале"
+    },
+    {
+        "name": "Джин Тоник",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 40 },
+            { "ingredient": "Тоник", "volume": 120 }
+        ],
+        "method": "Билд",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Джин Физз",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 45 },
+            { "ingredient": "Сок лимон", "volume": 30 },
+            { "ingredient": "Сахарный сироп", "volume": 10 },
+            { "ingredient": "Содовая", "volume": "Топом" }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Джон Коллинз",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 45 },
+            { "ingredient": "Сок лимон", "volume": 30 },
+            { "ingredient": "Сахарный сироп", "volume": 15 },
+            { "ingredient": "Содовая", "volume": 60 },
+            { "ingredient": "Биттер ангостура", "volume": 2}
+        ],
+        "method": "Билд",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Драй Мартини",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 60 },
+            { "ingredient": "Вермут сухой", "volume": 10 }
+        ],
+        "method": "Стир стрейн",
+        "glass": "Мартинка"
+    },
+    {
+        "name": "Зомби",
+        "ingredients": [
+            { "ingredient": "Темный ром", "volume": 45 },
+            { "ingredient": "Золотой ром", "volume": 45 },
+            { "ingredient": "Выдержанный ром", "volume": 30 },
+            { "ingredient": "Сок лайм", "volume": 20 },
+            { "ingredient": "Сироп фалернум", "volume": 15 },
+            { "ingredient": "Сок грейпфрут", "volume": 45 },
+            { "ingredient": "Сироп корица", "volume": 15 },
+            { "ingredient": "Сироп гренадин", "volume": 10 },
+            { "ingredient": "Биттер ангостура", "volume": 1}
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Тики бокал"
+    },
+    {
+        "name": "Кловер Клаб",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 45 },
+            { "ingredient": "Сироп малина", "volume": 15 },
+            { "ingredient": "Сок лимон", "volume": 15 },
+            { "ingredient": "Яичный белок", "volume": 15 }
+        ],
+        "method": "Шейк+драй шейк файн стрейн",
+        "glass": "Шале"
+    },
+    {
+        "name": "Космополитен",
+        "ingredients": [
+            { "ingredient": "Водка цитрус", "volume": 40 },
+            { "ingredient": "Ликер апельсин", "volume": 15 },
+            { "ingredient": "Сок лайм", "volume": 15 },
+            { "ingredient": "Сок клюква", "volume": 30 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Мартинка"
+    },
+    {
+        "name": "Кровавая Мэри",
+        "ingredients": [
+            { "ingredient": "Водка", "volume": 45 },
+            { "ingredient": "Сок томат", "volume": 90 },
+            { "ingredient": "Сок лимон", "volume": 15 },
+            { "ingredient": "Ворчестер", "volume": 2},
+            { "ingredient": "Тобаско", "volume": "по вкусу" },
+            { "ingredient": "Соль/перец", "volume": "по вкусу" }
+        ],
+        "method": "Стир стрейн",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Куба Либре",
+        "ingredients": [
+            { "ingredient": "Ром светлый", "volume": 50 },
+            { "ingredient": "Кока-кола", "volume": 120 },
+            { "ingredient": "Фреш лайм", "volume": 10 }
+        ],
+        "method": "Билд",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Кузнечик",
+        "ingredients": [
+            { "ingredient": "Ликер белый шоколад", "volume": 20 },
+            { "ingredient": "Ликер зеленая мята", "volume": 20 },
+            { "ingredient": "Сливки", "volume": 20 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Мартинка"
+    },
+    {
+        "name": "Лонг Айленд Айс Ти",
+        "ingredients": [
+            { "ingredient": "Водка", "volume": 15 },
+            { "ingredient": "Текила серебряная", "volume": 15 },
+            { "ingredient": "Джин сухой", "volume": 15 },
+            { "ingredient": "Ром светлый", "volume": 15 },
+            { "ingredient": "Ликер апельсин", "volume": 15 },
+            { "ingredient": "Сок лимон", "volume": 30 },
+            { "ingredient": "Сахарный сироп", "volume": 20 },
+            { "ingredient": "Кока-кола", "volume": "Топом" }
+        ],
+        "method": "Билд",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Май Тай",
+        "ingredients": [
+            { "ingredient": "Ром светлый", "volume": 30 },
+            { "ingredient": "Ром темный", "volume": 30 },
+            { "ingredient": "Ликер апельсин", "volume": 15 },
+            { "ingredient": "Сироп миндаль", "volume": 15 },
+            { "ingredient": "Сок лайм", "volume": 30 },
+            { "ingredient": "Сахарный сироп", "volume": 10 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Тики бокал"
+    },
+    {
+        "name": "Манхеттен",
+        "ingredients": [
+            { "ingredient": "Бурбон", "volume": 50 },
+            { "ingredient": "Вермут красный", "volume": 20 },
+            { "ingredient": "Биттер ангостура", "volume": 1}
+        ],
+        "method": "Стир стрейн",
+        "glass": "Мартинка"
+    },
+    {
+        "name": "Маргарита",
+        "ingredients": [
+            { "ingredient": "Текила серебряная", "volume": 50 },
+            { "ingredient": "Сок лайм", "volume": 15 },
+            { "ingredient": "Ликер апельсин", "volume": 20 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Маргаритка"
+    },
+    {
+        "name": "Московский Мул",
+        "ingredients": [
+            { "ingredient": "Водка", "volume": 45 },
+            { "ingredient": "Сок лайм", "volume": 10 },
+            { "ingredient": "Пиво имбирное", "volume": 120 }
+        ],
+        "method": "Билд",
+        "glass": "Медная кружка"
+    },
+    {
+        "name": "Мохито",
+        "ingredients": [
+            { "ingredient": "Ром светлый", "volume": 45 },
+            { "ingredient": "Сахар кубик", "volume": 2 },
+            { "ingredient": "Лист мяты", "volume": 6 },
+            { "ingredient": "Фреш лайм", "volume": 20 },
+            { "ingredient": "Содовая", "volume": "Топом" }
+        ],
+        "method": "Свизл мадл",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Негрони",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 30 },
+            { "ingredient": "Кампари", "volume": 30 },
+            { "ingredient": "Вермут красный", "volume": 30 }
+        ],
+        "method": "Билд",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Олд Фэшн",
+        "ingredients": [
+            { "ingredient": "Бурбон", "volume": 45 },
+            { "ingredient": "Сахар кусок", "volume": 1 },
+            { "ingredient": "Цедра апельсина", "volume": 1 },
+            { "ingredient": "Биттер ангостура", "volume": 2},
+            { "ingredient": "Содовая", "volume": 5 }
+        ],
+        "method": "Билд мадл",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Палома",
+        "ingredients": [
+            { "ingredient": "Текила серебряная", "volume": 50 },
+            { "ingredient": "Сок лайм", "volume": 5 },
+            { "ingredient": "Сок грейпфрут", "volume": 50 },
+            { "ingredient": "Содовая", "volume": "Топом" }
+        ],
+        "method": "Билд",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Пенициллин",
+        "ingredients": [
+            { "ingredient": "Виски шотландский", "volume": 60 },
+            { "ingredient": "Виски островной", "volume": 5 },
+            { "ingredient": "Сироп мед", "volume": 20 },
+            { "ingredient": "Сок лимон", "volume": 20 },
+            { "ingredient": "Слайс имбиря", "volume": 2 }
+        ],
+        "method": "Шейк мадл файн стрейн",
+        "glass": "Рокс"
+    },
+    {
+        "name": "Пина Колада",
+        "ingredients": [
+            { "ingredient": "Ром светлый", "volume": 50 },
+            { "ingredient": "Пюре кокос", "volume": 30 },
+            { "ingredient": "Сок ананас", "volume": 50 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Харрикейн"
+    },
+    {
+        "name": "Порн Стар",
+        "ingredients": [
+            { "ingredient": "Водка ваниль", "volume": 40 },
+            { "ingredient": "Ликер маракуйя", "volume": 10 },
+            { "ingredient": "Сахар ванильный", "volume": 10 },
+            { "ingredient": "Половина маракуйи", "volume": 1 },
+            { "ingredient": "Игристое сухое", "volume": 50 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Мартинка стопка"
+    },
+    {
+        "name": "Рамоз Физз",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 45 },
+            { "ingredient": "Сок лайм", "volume": 15 },
+            { "ingredient": "Сок лимон", "volume": 15 },
+            { "ingredient": "Сахарный сироп", "volume": 30 },
+            { "ingredient": "Сливки", "volume": 60 },
+            { "ingredient": "Яичный белок", "volume": 30 },
+            { "ingredient": "Вода с ароматом апельсина", "volume": 3},
+            { "ingredient": "Содовая", "volume": "Топом" }
+        ],
+        "method": "Шейк драй шейк файн стрейн",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Секс на пляже",
+        "ingredients": [
+            { "ingredient": "Водка", "volume": 40 },
+            { "ingredient": "Ликер персик", "volume": 20 },
+            { "ingredient": "Сок клюква", "volume": 40 },
+            { "ingredient": "Фреш апельсин", "volume": 40 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Харрикейн"
+    },
+    {
+        "name": "Сингапурский Слинг",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 30 },
+            { "ingredient": "Ликер вишня", "volume": 15 },
+            { "ingredient": "Ликер апельсин", "volume": 10 },
+            { "ingredient": "Ликер бенедиктин", "volume": 10 },
+            { "ingredient": "Сок ананас", "volume": 120 },
+            { "ingredient": "Фреш лайм", "volume": 15 },
+            { "ingredient": "Сироп гренадин", "volume": 10 },
+            { "ingredient": "Биттер ангостура", "volume": 1}
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Слинг"
+    },
+    {
+        "name": "Текила Санрайз",
+        "ingredients": [
+            { "ingredient": "Текила серебряная", "volume": 50 },
+            { "ingredient": "Сок апельсин", "volume": 150 },
+            { "ingredient": "Сироп гренадин", "volume": 10 }
+        ],
+        "method": "Билд",
+        "glass": "Хайбол"
+    },
+    {
+        "name": "Френч 75",
+        "ingredients": [
+            { "ingredient": "Джин сухой", "volume": 30 },
+            { "ingredient": "Сок лимон", "volume": 15 },
+            { "ingredient": "Сахарный сироп", "volume": 15 },
+            { "ingredient": "Игристое сухое", "volume": 60 }
+        ],
+        "method": "Шейк файн стрейн",
+        "glass": "Флюте"
+    }
+]
