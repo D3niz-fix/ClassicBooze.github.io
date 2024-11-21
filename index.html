@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassicBooze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ClassicBooze</h1>
+        <div id="game-setup">
+            <p>Выберите уровень сложности:</p>
+            <button onclick="startGame(10)">10 коктейлей</button>
+            <button onclick="startGame(20)">20 коктейлей</button>
+            <button onclick="startGame(30)">30 коктейлей</button>
+            <button onclick="startGame(40)">40 коктейлей</button>
+        </div>
+
+        <div id="game" class="hidden">
+            <h2 id="cocktail-name"></h2>
+            <div class="game-container">
+                <div class="game-elements">
+                    <div id="ingredients-tree">
+
+                        <h3>Ингредиенты</h3>
+                        <button class="ingredient-category">Виски</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Виски ирландский')">Виски ирландский</button>
+                            <button class="ingredient" onclick="selectIngredient('Бурбон')">Бурбон</button>
+                        </div>
+                        <button class="ingredient-category">Джин</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Джин сухой')">Джин сухой</button>
+                        </div>
+                        <button class="ingredient-category">Ром</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Ром светлый')">Ром светлый</button>
+                            <button class="ingredient" onclick="selectIngredient('Ром темный')">Ром темный</button>
+                            <button class="ingredient" onclick="selectIngredient('Ром золотой')">Ром золотой</button>
+                            <button class="ingredient" onclick="selectIngredient('Выдержанный ром')">Выдержанный ром</button>
+                        </div>
+                        <button class="ingredient-category">Водка</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Водка')">Водка</button>
+                            <button class="ingredient" onclick="selectIngredient('Водка цитрус')">Водка цитрус</button>
+                        </div>
+                        <button class="ingredient-category">Текила</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Текила серебряная')">Текила серебряная</button>
+                        </div>
+                        <button class="ingredient-category">Игристые вина</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Игристое сухое')">Игристое сухое</button>
+                            <button class="ingredient" onclick="selectIngredient('Игристое белое')">Игристое белое</button>
+                        </div>
+                        <button class="ingredient-category">Вермут</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Вермут красный')">Вермут красный</button>
+                            <button class="ingredient" onclick="selectIngredient('Вермут сухой')">Вермут сухой</button>
+                        </div>
+                        <button class="ingredient-category">Биттеры и аперитивы</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Кампари')">Кампари</button>
+                            <button class="ingredient" onclick="selectIngredient('Апероль')">Апероль</button>
+                        </div>
+                        <button class="ingredient-category">Ликеры</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Ликер мараскино')">Ликер мараскино</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер фиалка')">Ликер фиалка</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер кофе')">Ликер кофе</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер сливочный')">Ликер сливочный</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер апельсин')">Ликер апельсин</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер блю кюрасао')">Ликер блю кюрасао</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер белый шоколад')">Ликер белый шоколад</button>
+                            <button class="ingredient" onclick="selectIngredient('Ликер зеленая мята')">Ликер зеленая мята</button>
+                        </div>
+                        <button class="ingredient-category">Соки</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Сок лимон')">Сок лимон</button>
+                            <button class="ingredient" onclick="selectIngredient('Сок лайм')">Сок лайм</button>
+                            <button class="ingredient" onclick="selectIngredient('Сок томат')">Сок томат</button>
+                            <button class="ingredient" onclick="selectIngredient('Сок клюква')">Сок клюква</button>
+                            <button class="ingredient" onclick="selectIngredient('Сок грейпфрут')">Сок грейпфрут</button>
+                        </div>
+                        
+                        <button class="ingredient-category">Напитки</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Спрайт')">Спрайт</button>
+                            <button class="ingredient" onclick="selectIngredient('Кока-кола')">Кока-кола</button>
+                            <button class="ingredient" onclick="selectIngredient('Содовая')">Содовая</button>
+                            <button class="ingredient" onclick="selectIngredient('Американо')">Американо</button>
+                            <button class="ingredient" onclick="selectIngredient('Тоник')">Тоник</button>
+                        </div>
+                        
+                        <button class="ingredient-category">Сиропы</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Сахарный сироп')">Сахарный сироп</button>
+                            <button class="ingredient" onclick="selectIngredient('Сироп фалернум')">Сироп фалернум</button>
+                            <button class="ingredient" onclick="selectIngredient('Сироп корица')">Сироп корица</button>
+                            <button class="ingredient" onclick="selectIngredient('Сироп гренадин')">Сироп гренадин</button>
+                            <button class="ingredient" onclick="selectIngredient('Сироп малина')">Сироп малина</button>
+                        </div>
+                        
+                        <button class="ingredient-category">Пюре</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Фреш лайм')">Фреш лайм</button>
+                            <button class="ingredient" onclick="selectIngredient('Пюре персик')">Пюре персик</button>
+                        </div>
+                        
+                        <button class="ingredient-category">Дополнительно</button>
+                        <div class="ingredient-variants hidden">
+                            <button class="ingredient" onclick="selectIngredient('Яичный белок')">Яичный белок</button>
+                            <button class="ingredient" onclick="selectIngredient('Сливки')">Сливки</button>
+                            <button class="ingredient" onclick="selectIngredient('Сливки взбитые')">Сливки взбитые</button>
+                            <button class="ingredient" onclick="selectIngredient('Сахар кусок')">Сахар кусок</button>
+                            <button class="ingredient" onclick="selectIngredient('Сахар тростник')">Сахар тростник</button>
+                            <button class="ingredient" onclick="selectIngredient('Ворчестер')">Ворчестер</button>
+                            <button class="ingredient" onclick="selectIngredient('Тобаско')">Тобаско</button>
+                            <button class="ingredient" onclick="selectIngredient('Соль/перец')">Соль/перец</button>
+                            <button class="ingredient" onclick="selectIngredient('Лист базилика')">Лист базилика</button>
+                        </div>
+                    </div>
+                    <form id="answer-form">
+                        <label for="ingredients">Ингредиенты и объем:</label>
+                        <div id="ingredients-container-wrapper">
+                            <div id="ingredients-container">
+                                <div class="ingredient-row">
+                                    <span class="empty-text">Пусто</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" onclick="addIngredientField()">Добавить ингредиент</button>
+                        <button type="button" onclick="clearAllIngredients()">Очистить все</button>
+
+                        <label for="glass">Стекло:</label>
+                        <input type="text" id="glass" placeholder="Стекло">
+
+                        <button type="button" onclick="submitAnswer()">Ответить</button>
+                        <button type="button" onclick="skipQuestion()">Пропустить</button>
+                    </form>
+                    <div id="glass-buttons-container">
+                        <h3>Бокалы</h3>
+                        <div id="glass-buttons">
+                            <button class="ingredient" onclick="selectGlass('Мартинка')">Мартинка</button>
+                            <button class="ingredient" onclick="selectGlass('Айриш бокал')">Айриш бокал</button>
+                            <button class="ingredient" onclick="selectGlass('Рокс')">Рокс</button>
+                            <button class="ingredient" onclick="selectGlass('Винный бокал')">Винный бокал</button>
+                            <button class="ingredient" onclick="selectGlass('Шот')">Шот</button>
+                            <button class="ingredient" onclick="selectGlass('Шале')">Шале</button>
+                            <button class="ingredient" onclick="selectGlass('Флюте')">Флюте</button>
+                            <button class="ingredient" onclick="selectGlass('Харрикейн')">Харрикейн</button>
+                            <button class="ingredient" onclick="selectGlass('Хайбол')">Хайбол</button>
+                            <button class="ingredient" onclick="selectGlass('Тики бокал')">Тики бокал</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="results" class="hidden">
+            <h2>Результаты:</h2>
+            <p id="score"></p>
+            <table id="results-table" border="1">
+            </table>
+            <button onclick="resetGame()">Попробовать снова</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
